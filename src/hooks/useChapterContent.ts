@@ -19,7 +19,7 @@ export function useChapterContent(chapterId: string): {
   useEffect(() => {
     setRawContent(null);
     setFetchError(null);
-    fetch(`/content/chapters/${chapterId}.md`)
+    fetch(`${import.meta.env.BASE_URL}content/chapters/${chapterId}.md`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.text();

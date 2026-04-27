@@ -31,6 +31,13 @@ function parseFrontmatter(raw: string): { data: Record<string, unknown>; content
   return { data, content };
 }
 
+const BASE_URL = import.meta.env.BASE_URL;
+
+function prefixPath(path: string): string {
+  if (path.startsWith('/')) return `${BASE_URL}${path.slice(1)}`;
+  return path;
+}
+
 export function parseChapter(rawContent: string, id: string): ChapterData {
   const { data, content } = parseFrontmatter(rawContent);
 
@@ -39,7 +46,7 @@ export function parseChapter(rawContent: string, id: string): ChapterData {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const images: ImageEntry[] = ((data.images || []) as any[]).map((img, i) => ({
-    src: String(img.src),
+    src: prefixPath(String(img.src)),
     timestamp: parseTimestamp(String(img.timestamp)),
     alt: img.alt ? String(img.alt) : `Image ${i + 1}`,
   }));
@@ -63,7 +70,7 @@ export function parseChapter(rawContent: string, id: string): ChapterData {
   return {
     id,
     title: String(data.title),
-    audioSrc: String(data.audio),
+    audioSrc: prefixPath(String(data.audio)),
     images,
     commentary,
     transcript: content.trim(),
