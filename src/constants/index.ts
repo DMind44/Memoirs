@@ -4,6 +4,7 @@ export const COMMENTARY_TYPES: Record<CommentaryType, { label: string; cssClass:
   clarification: { label: 'Clarification', cssClass: 'commentary--clarification' },
   aside: { label: 'Aside', cssClass: 'commentary--aside' },
   addition: { label: 'Addition', cssClass: 'commentary--addition' },
+  info: { label: 'Information', cssClass: 'commentary--info' }
 };
 
 /** How long a commentary entry remains visible after its timestamp (in seconds) */

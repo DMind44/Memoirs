@@ -1,32 +1,35 @@
 ---
 title: The Map
-audio: /content/audio/chapter2.mp3
+audio: /content/audio/early-memories.m4a
 images:
-  - src: /content/images/ch2-desk.jpg
+  - src: /content/images/salinas-family.jpg
     timestamp: 00:00
-    alt: "A cluttered desk with papers and a magnifying glass"
-  - src: /content/images/ch2-coast.jpg
-    timestamp: 00:25
-    alt: "Rocky coastline seen through a rain-streaked window"
-  - src: /content/images/ch2-lantern.jpg
-    timestamp: 01:00
-    alt: "An old brass lantern casting warm light on stone walls"
+    alt: "Salinas Family Portrait"
+  - src: /content/images/parents.jpg
+    timestamp: 04:00
+    alt: "Armando and Teresa"
+  - src: /content/images/family-portrait-various.jpg
+    timestamp: 06:57
+    alt: "Extended family"
 commentary:
   - timestamp: 00:05
     type: clarification
-    text: "The desk described here belonged to the cartographer Edmund Hale, who worked in this room from 1892 to 1901."
-  - timestamp: 00:30
+    text: "I don't speak much Spanish, something that will probably be clear throughout this reading"
+  - timestamp: 00:42
     type: aside
-    text: "The coastline imagery mirrors the opening harbor scene, creating a structural echo the author uses throughout the book."
-  - timestamp: 00:45
-    type: addition
-    text: "Readers interested in cartographic history should seek out 'The Measure of All Things' by Ken Alder."
-  - timestamp: 01:10
-    type: clarification
-    text: "The brass lantern is a recurring symbol in the text, representing the tension between illumination and concealment."
-  - timestamp: 01:30
+    text: "My grandfather would scold me whenever I pronounced llamas with an L instead of an elle."
+  - timestamp: 03:30
     type: aside
-    text: "The author has mentioned in interviews that the lantern was based on one she found in an antique shop in Whitby."
+    text: "Salinas means \"salt flats\" in Spanish"
+  - timestamp: 05:28
+    type: aside
+    text: "I did not inherit my great-grandfather's good penmanship"
+  - timestamp: 06:22
+    type: info
+    text: "My Great Aunt Roxana still lives in Chile to this day, in Santiago along with her children and grandchildren"
+  - timestamp: 07:45
+    type: aside
+    text: "I had no idea about this story"
 ---
 
 Margaret spread the map across the desk, weighing its corners with whatever she could find — a magnifying glass, a coffee mug, a book of tide tables she hadn't opened in years. The paper was brittle, its surface a palimpsest of ink marks and penciled annotations in a hand she didn't recognize.

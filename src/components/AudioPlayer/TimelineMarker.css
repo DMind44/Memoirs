@@ -84,6 +84,14 @@
   color: var(--color-addition);
 }
 
+.timeline-marker--info .timeline-marker__dot {
+  background: var(--color-info);
+}
+.timeline-marker--info .timeline-marker__preview-type {
+  background: var(--color-info-bg);
+  color: var(--color-info);
+}
+
 .timeline-marker--image .timeline-marker__dot {
   background: var(--color-player-muted);
 }

@@ -51,3 +51,13 @@
   background: var(--color-addition);
   color: #ffffff;
 }
+
+/* Information */
+.commentary--info {
+  border-left-color: var(--color-info);
+  background: var(--color-info-bg);
+}
+.commentary--info .commentary-entry__badge {
+  background: var(--color-info);
+  color: #ffffff;
+}

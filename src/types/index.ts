@@ -1,4 +1,4 @@
-export type CommentaryType = 'clarification' | 'aside' | 'addition';
+export type CommentaryType = 'clarification' | 'aside' | 'addition' | 'info';
 
 export interface ImageEntry {
   src: string;

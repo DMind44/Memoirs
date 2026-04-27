@@ -54,6 +54,7 @@ App → AppLayout
 | clarification | Blue (#3b82f6) | --color-clarification |
 | aside | Green (#22c55e) | --color-aside |
 | addition | Orange (#f97316) | --color-addition |
+| info | Purple (#8b5cf6) | --color-info |
 
 ### Content File Format
 ```yaml
@@ -66,7 +67,7 @@ images:
     alt: "Description"
 commentary:
   - timestamp: 00:15
-    type: clarification  # or: aside, addition
+    type: clarification  # or: aside, addition, info
     text: "Commentary text"
 ---
 Transcript text...

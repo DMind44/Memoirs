@@ -3,8 +3,8 @@ import { parseChapter } from '@/parsers/chapterParser';
 import type { ChapterData } from '@/types';
 
 export const CHAPTERS = [
-  { id: 'chapter-1', title: 'The Arrival' },
-  { id: 'chapter-2', title: 'The Map' },
+  { id: 'chapter-1', title: 'Editor\'s Note' },
+  { id: 'chapter-2', title: 'Early Memories' },
 ] as const;
 
 export type ChapterId = (typeof CHAPTERS)[number]['id'];

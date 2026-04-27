@@ -2,7 +2,7 @@ import { load as yamlLoad } from 'js-yaml';
 import { parseTimestamp } from '@/utils/timeUtils';
 import type { ChapterData, CommentaryEntry, ImageEntry, CommentaryType } from '@/types';
 
-const VALID_COMMENTARY_TYPES = new Set<string>(['clarification', 'aside', 'addition']);
+const VALID_COMMENTARY_TYPES = new Set<string>(['clarification', 'aside', 'addition', 'info']);
 
 /**
  * Parse YAML frontmatter + markdown body from a raw string.
