@@ -1,0 +1,39 @@
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--color-player-bg);
+  color: var(--color-player-text);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-lg);
+  min-height: 56px;
+}
+
+.audio-player__skip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  color: var(--color-player-muted);
+  transition: color var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.audio-player__skip:hover {
+  color: var(--color-player-text);
+}
+
+.audio-player__time {
+  font-size: var(--font-size-xs);
+  color: var(--color-player-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.audio-player__error {
+  color: #ef4444;
+  font-size: var(--font-size-xs);
+}

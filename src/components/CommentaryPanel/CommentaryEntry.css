@@ -1,0 +1,53 @@
+.commentary-entry {
+  padding: var(--space-sm) var(--space-md);
+  border-left: 3px solid transparent;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.commentary-entry__badge {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.commentary-entry__text {
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Clarification */
+.commentary--clarification {
+  border-left-color: var(--color-clarification);
+  background: var(--color-clarification-bg);
+}
+.commentary--clarification .commentary-entry__badge {
+  background: var(--color-clarification);
+  color: #ffffff;
+}
+
+/* Aside */
+.commentary--aside {
+  border-left-color: var(--color-aside);
+  background: var(--color-aside-bg);
+}
+.commentary--aside .commentary-entry__badge {
+  background: var(--color-aside);
+  color: #ffffff;
+}
+
+/* Addition */
+.commentary--addition {
+  border-left-color: var(--color-addition);
+  background: var(--color-addition-bg);
+}
+.commentary--addition .commentary-entry__badge {
+  background: var(--color-addition);
+  color: #ffffff;
+}

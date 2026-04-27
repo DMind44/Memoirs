@@ -1,0 +1,89 @@
+.timeline-marker {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.timeline-marker__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--color-player-bg);
+  transition: transform var(--transition-fast);
+}
+
+.timeline-marker:hover .timeline-marker__dot {
+  transform: scale(1.5);
+}
+
+.timeline-marker__preview {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-surface);
+  color: var(--color-text);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  white-space: nowrap;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+  font-size: var(--font-size-xs);
+}
+
+.timeline-marker:hover .timeline-marker__preview {
+  opacity: 1;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.timeline-marker__preview-type {
+  display: inline-block;
+  font-weight: 600;
+  font-size: var(--font-size-xs);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.timeline-marker__preview-text {
+  display: block;
+  line-height: 1.4;
+}
+
+/* Commentary type colors for markers */
+.timeline-marker--clarification .timeline-marker__dot {
+  background: var(--color-clarification);
+}
+.timeline-marker--clarification .timeline-marker__preview-type {
+  background: var(--color-clarification-bg);
+  color: var(--color-clarification);
+}
+
+.timeline-marker--aside .timeline-marker__dot {
+  background: var(--color-aside);
+}
+.timeline-marker--aside .timeline-marker__preview-type {
+  background: var(--color-aside-bg);
+  color: var(--color-aside);
+}
+
+.timeline-marker--addition .timeline-marker__dot {
+  background: var(--color-addition);
+}
+.timeline-marker--addition .timeline-marker__preview-type {
+  background: var(--color-addition-bg);
+  color: var(--color-addition);
+}
+
+.timeline-marker--image .timeline-marker__dot {
+  background: var(--color-player-muted);
+}

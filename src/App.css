@@ -1,0 +1,12 @@
+.app-error {
+  padding: var(--space-xl);
+  text-align: center;
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.app-loading {
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--color-text-muted);
+}

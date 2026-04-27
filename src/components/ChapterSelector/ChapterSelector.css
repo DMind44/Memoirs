@@ -1,0 +1,25 @@
+.chapter-selector {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+.chapter-selector__item {
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  transition: all var(--transition-fast);
+}
+
+.chapter-selector__item:hover {
+  border-color: var(--color-player-accent);
+}
+
+.chapter-selector__item--active {
+  background: var(--color-player-accent);
+  color: #ffffff;
+  border-color: var(--color-player-accent);
+}

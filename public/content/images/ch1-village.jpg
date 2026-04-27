@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect fill="#2d3748" width="800" height="600"/>
+  <text x="400" y="280" text-anchor="middle" fill="#a0aec0" font-size="24" font-family="system-ui, sans-serif">A small village nestled in hills</text>
+  <text x="400" y="320" text-anchor="middle" fill="#718096" font-size="16" font-family="system-ui, sans-serif">ch1-village — Placeholder Image</text>
+</svg>
