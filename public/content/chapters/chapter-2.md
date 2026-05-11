@@ -1,5 +1,5 @@
 ---
-title: The Map
+title: Early Memories
 audio: /content/audio/early-memories.m4a
 images:
   - src: /content/images/salinas-family.jpg
